@@ -7,7 +7,7 @@ console.log("Welcome !");
   member.createDM().then(function (channel) {
   return channel.send(`
 **
-عند خروج العضو من السيرفر
+https://discord.gg/ZaSbJYY
 **`)
 }).catch(console.error)
 
@@ -17,8 +17,8 @@ client.on("guildMemberAdd", member => {
   member.createDM().then(function (channel) {
   return channel.send(`
 **
-عند دخول عضو على السيرفر
+https://discord.gg/ZaSbJYY
 **`)
 }).catch(console.error)
 })
-client.login('توكن حساب النشر');
+client.login('"NTQ0MjcwMDM2ODc0MDM1MjEy.XZe22w.yHR7O72Zajkix_-3DzMkNT1rkIc"');
